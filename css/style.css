@@ -1,0 +1,98 @@
+/* Callout */
+
+.callout-container {
+   background: url(../images/Whiskey-background.jpg) no-repeat fixed bottom right;
+   background-size: cover;
+   height: 100vh;
+   background-color: rgba(1,1,1,0.5);
+   position: relative;
+   padding: 0;
+}
+
+.callout-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron {
+    background-color:transparent;
+    height: 100%;
+    width: 100%;
+}
+
+.callout-header {
+    color: #e1d7ce;
+}
+
+.orange-break {
+    border: none;
+    height: 3px;
+    width: 25%;
+    background-color: #b8975b;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.callout .lead {
+    color: #e1d7ce;
+}
+
+.callout .text-muted {
+    padding-top: 7px;
+}
+
+.text-muted small {
+    color: #e1d7ce;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* Quotes */
+
+.quotes-section {
+
+/* Fautures */
+
+}
+.features-section {
+
+/* Favourites */
+
+}
+.favourites-section {
+
+}
+
+/* General */
+
+.container-main {
+    padding: 0;
+}
+
+/* Buttons */
+
+.btn-cta {
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: #ffffff;
+}
+
+.btn-orange {
+    background-color: #db7119;
+    color:#ffffff;
+}
+
+.callout .btn-orange:hover, 
+.callout .btn-orange:active, 
+.callout .btn-orange:focus, 
+.callout .btn-orange:active:focus {
+    background-color: #ffffff;
+    color: #db7119;
+    border-color: #db7119;
+    box-shadow: 0 0 0 0;
+}
